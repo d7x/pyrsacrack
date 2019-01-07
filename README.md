@@ -1,10 +1,10 @@
 # pyrsacrack
-python rsa crack tool by d7x
-based on Bernie Lim's walkthrough and several other references which use weak randomizing of keys in order to generate a private key, uses rsatool by ius to generate the PEM keys by passing p and q
+python rsa crack tool by d7x  
+based on Bernie Lim's walkthrough and several other references which use weak randomizing of keys in order to generate a private key, uses rsatool by ius to generate the PEM keys by passing p and q  
 
-I couldn't come up with a fancier name so I  just called it rsacrack even though it sounds a bit too almighty for such a small script. I do not get credit for the methods used in this script as I just packed it from the references to automatize the process of cracking weak ssh keys. I haven't had the time to refactor the code yet so don't look at it as something official 
+I couldn't come up with a fancier name so I  just called it rsacrack even though it sounds a bit too almighty for such a small script. I do not get credit for the methods used in this script as I just packed it from the references to automatize the process of cracking weak ssh keys. I haven't had the time to refactor the code yet so don't look at it as something official  
 
-It uses ius' rsatool in itself to generate the PEM keys, which is included as a submodule thus you would need to include the --recursive option when cloning. 
+It uses ius' rsatool in itself to generate the PEM keys, which is included as a submodule thus you would need to include the --recursive option when cloning.  
 
 references:  
 https://hackso.me/rsa-1-walkthrough/ - Hand over the Keys by Bernie Lim  
