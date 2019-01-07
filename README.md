@@ -26,7 +26,7 @@ http://www.cacr.math.uwaterloo.ca/hac/
 # Setup: 
 git clone --recursive https://github.com/d-7-x/rsacrack
 
-touch rsatool/__init__.py # required in order to be able to include rsatool as a module 
+touch rsatool/\_\_init\_\_.py # required in order to be able to include rsatool as a module 
 
 
 Usage:
