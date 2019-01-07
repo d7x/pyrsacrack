@@ -11,11 +11,11 @@ https://hackso.me/rsa-1-walkthrough/ - Hand over the Keys by Bernie Lim
 https://factorable.net/weakkeys12.conference.pdf - Mining Your Ps and Qs: Detection of Widespread Weak Keys in Network Devices  https://medium.com/asecuritysite-when-bob-met-alice/cracking-rsa-a-challenge-generator-2b64c4edb3e7 - Cracking RSA - A Challenge Generator by Prof Bill Buchanan  
 
 https://github.com/ius/rsatool - rsatool can be used to calculate RSA and RSA-CRT parameters  
-(extracted from rsatool):  
-  Efficiently recover non-trivial factors of n  
-  See: Handbook of Applied Cryptography  
-  8.2.2 Security of RSA -> (i) Relation to factoring (p.287)  
-  http://www.cacr.math.uwaterloo.ca/hac/  
+Efficiently recover non-trivial factors of n  
+See: Handbook of Applied Cryptography  
+8.2.2 Security of RSA -> (i) Relation to factoring (p.287)  
+http://www.cacr.math.uwaterloo.ca/hac/  
+(extracted from rsatool)
 
 # Setup: 
 git clone --recursive https://github.com/d-7-x/pyrsacrack  
