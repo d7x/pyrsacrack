@@ -7,19 +7,24 @@ I couldnt come up with a fancier name so I  just called it rsacrack even though 
 It uses ius' rsatool in itself to generate the PEM keys, which is included as a submodule thus you would need to include the --recursive option when cloning. 
 
 references:
+
 https://hackso.me/rsa-1-walkthrough/ - Hand over the Keys by Bernie Lim
 
 https://factorable.net/weakkeys12.conference.pdf - Mining Your Ps and Qs: Detection of Widespread Weak Keys in Network Devices
 
 https://github.com/ius/rsatool - rsatool can be used to calculate RSA and RSA-CRT parameters
 
-https://medium.com/asecuritysite-when-bob-met-alice/cracking-rsa-a-challenge-generator-2b64c4edb3e7 - Cracking RSA - A 
+https://medium.com/asecuritysite-when-bob-met-alice/cracking-rsa-a-challenge-generator-2b64c4edb3e7 - Cracking RSA - A Challenge Generator by Prof Bill Buchanan 
 
 extracted from rsatool:
-Challenge Generator by Prof Bill Buchanan 
+
+
 Efficiently recover non-trivial factors of n
+
 See: Handbook of Applied Cryptography
+
 8.2.2 Security of RSA -> (i) Relation to factoring (p.287)
+
 http://www.cacr.math.uwaterloo.ca/hac/
 
 
@@ -29,6 +34,6 @@ git clone --recursive https://github.com/d-7-x/rsacrack
 touch rsatool/\_\_init\_\_.py # required in order to be able to include rsatool as a module 
 
 
-Usage:
+# Usage:
 
 python rsacrack.py
