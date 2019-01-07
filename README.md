@@ -19,10 +19,10 @@ See: Handbook of Applied Cryptography
 http://www.cacr.math.uwaterloo.ca/hac/  
 
 # Setup: 
-git clone --recursive https://github.com/d-7-x/rsacrack  
-cd rsacrack  
-touch rsatool/\_\_init\_\_.py # required in order to be able to include rsatool as a module  
+git clone --recursive https://github.com/d-7-x/pyrsacrack  
+cd pyrsacrack  
+touch pyrsatool/\_\_init\_\_.py # required in order to be able to include rsatool as a module  
 
 # Usage:
 
-python rsacrack.py
+python pyrsacrack.py
